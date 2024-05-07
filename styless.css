@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ECF1F5;
+  }
+  
+.logo img {
+    height: 150px;
+    margin-left:80px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 45px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #35062d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    transition: color 0.5s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #B370F5;
+  }
+
+  .prodheader{
+    padding: 65px 0;
+    text-align: center;
+    background-color: #35062d;
+  }
+
+  .prodheader h2{
+    color: #fff;
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+  }
+
+  .prodheader p{
+    color: #fff;
+  }
+
+  .prodheader a{
+    text-decoration: none;
+  }
+
+  .menu {
+    padding: 30px 0;
+    text-align: center;
+    background-color: #ffffff;
+  
+  }
+  
+  .menu h2 {
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    margin-left: 70px;
+    color: #000000;
+    text-align: left;
+  }
+  
+  .menu-items {
+    display: flex;
+    justify-content: left;
+    margin-left: 12%;
+
+   
+  }
+  
+  .menu-item {
+    justify-content: left;
+    max-width: 300px;
+    margin: 0 20px;
+    text-align: center;
+  
+  }
+  
+  .menu-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item h3 {
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: #000000;
+  }
+  
+  .menu-item p {
+    font-size: 16px;
+    
+    margin-bottom: 20px;
+    color: #000000;
+  }
+
+
+.footer {
+    background-color: #35062d;
+    padding: 40px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .footer-logo img {
+    max-width: 110px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-links img{
+    max-width: 30px;
+  }
+  
+  .footer-links p{
+    margin-top: 5px;
+  }
+  
+  .footer-links{
+  display: flex;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .footer-text {
+    font-size: 14px;
+  }
+  
+  
